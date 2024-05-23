@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "dice-expo",
+    "slug": "dice-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.airfun.dicepoker",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.161037988763-412jjbg5tnkc8mjnc7kun4u18firdk2n\n"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.airfun.dicepoker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e92778b2-618a-4edd-9627-cd64a08f4193"
+      }
+    }
+  }
+}
