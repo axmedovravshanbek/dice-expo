@@ -28,13 +28,14 @@ const App = () => {
       setError(e)
     }
   }
-  const logout = () => {
+  const logout = async () => {
     setUserInfo(undefined)
-    GoogleSignin.revokeAccess()
-    GoogleSignin.signOut()
+    await GoogleSignin.revokeAccess()
+    await GoogleSignin.signOut()
   }
   return (
     <View style={styles.container}>
+      <Text>'JSON.stringify(error)'</Text>
       <Text>{JSON.stringify(error)}</Text>
       <Text>{JSON.stringify(userInfo?.user)}</Text>
       {userInfo
