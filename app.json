@@ -3,7 +3,7 @@
     "name": "dice-expo",
     "slug": "dice-expo",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -24,7 +24,7 @@
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": [
-              "com.googleusercontent.apps.161037988763-412jjbg5tnkc8mjnc7kun4u18firdk2n\n"
+              "com.googleusercontent.apps.161037988763-412jjbg5tnkc8mjnc7kun4u18firdk2n"
             ]
           }
         ]
